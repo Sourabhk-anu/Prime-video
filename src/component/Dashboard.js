@@ -11,6 +11,17 @@ const Dashboard = ({setUser}) => {
     }
     return (
         <div>
+            <section class="dash-sec1">
+            <div>
+              <h1>Spider-Man:No Way From Home</h1>
+              <p>Spider-Man: No Way Home is a 2021 American superhero film based on the Marvel Comics character Spider-Man co-produced 
+                by Columbia Pictures and Marvel Studios and distributed by Sony Pictures Releasing. It is the sequel to Spider-Man: 
+                Homecoming (2017) and Spider-Man: Far From Home (2019), and is the 27th film in the Marvel Cinematic Universe.</p>
+                <div class="button1"><i class="fa fa-play" aria-hidden="true"></i> Watch Now</div>
+                </div>
+              <iframe width="560" height="325" src="https://www.youtube.com/embed/JfVOs4VSpmA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+            </section>
             <header className="dashHeader">
               <div>
                 <img className="dashImg" src="https://icdn.digitaltrends.com/image/digitaltrends/prime-video-logo-streaming-topic-416x416.jpg" alt="primeVideo"/>
@@ -48,11 +59,6 @@ const Dashboard = ({setUser}) => {
                 <input className="searchBtn" type="search" placeholder="search"/>
                 <input type="button" value="Log Out" onClick={logOut}/>
             </header>
-            <section>
-              <video>
-              <iframe width="560" height="325" src="https://www.youtube.com/embed/JfVOs4VSpmA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </video>
-            </section>
         </div>
     )
 }
