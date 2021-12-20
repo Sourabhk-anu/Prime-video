@@ -6,7 +6,7 @@ import Dashboard from './component/Dashboard'
 import Signup from './component/Signup'
 
 const App = () => {
-  const[user, setUser] = useState(false)
+  const [user, setUser] = useState(null)
   return (
     
     <div>
