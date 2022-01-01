@@ -386,7 +386,6 @@ li a{
   position: relative;
   top: -47vh;
   padding-left: 40px;
-  padding-top: 13px;
   background: rgb(29, 29, 43);
 }
 
@@ -424,7 +423,6 @@ li a{
   position: relative;
   top: -47vh;
   padding-left: 40px;
-  padding-top: 13px;
   background: rgb(29, 29, 43);
 }
 
@@ -454,6 +452,43 @@ li a{
 }
 
 .video-link2 iframe:focus {
+  transform: scale(1.6);
+}
+
+.dash-sec4 {
+  width: auto;
+  position: relative;
+  top: -47vh;
+  padding-left: 40px;
+  background: rgb(29, 29, 43);
+}
+
+.dash-sec4 div {
+  display: flex;
+}
+
+.dash-sec4 h2 {
+  color: white;
+  padding-right: 10px;
+}
+
+.dash-sec4 h4 {
+  color: rgb(105, 59, 230);
+  cursor: pointer;
+}
+
+.video-link3 {
+  display: flex;
+  overflow:auto;
+}
+
+.video-link3 iframe {
+  width: 400px;
+  height: 250px;
+  padding: 10px 5px 30px 5px;
+}
+
+.video-link3 iframe:focus {
   transform: scale(1.6);
 }
 
